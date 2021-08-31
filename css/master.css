@@ -1,0 +1,282 @@
+
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(../images/bg.png);
+}
+.container
+{
+    max-width: 960px;
+}
+.header_content
+{
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+.menu-toggler
+{
+    position: absolute;
+    top: -115px;
+    right: -8px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.burger-slice
+{
+    width: 25px;
+    height: 4px;
+    margin: 3px;
+    background-color: rgb(92, 92, 92);
+    transform-origin:right;
+    transition: all 0.5s;
+}
+#navbarSupportedContent
+{
+    background-image: url(../images/bg_nav.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 5px;
+}
+#navbarSupportedContent ul li
+{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    border-right: 1px solid #164c7b;
+    border-left: 1px solid #225e94;
+}
+#navbarSupportedContent ul li:hover
+{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#navbarSupportedContent ul li a
+{
+    color: rgb(223, 226, 243);
+    padding: 6px 20px;
+}
+label
+{
+    font-size: 14px;
+}
+label::after
+{
+    content: '*';
+    color: red;
+    font-size: 18px;
+    margin-left: 3px;
+}
+header .formgroup input
+{
+    width: 170px;
+    height: 23px;
+}
+
+.formgroup a
+{
+    color: grey;
+    font-size: 11px;
+}
+#signup
+{
+    flex-wrap: wrap;
+}
+.signup_menu-toggler
+{
+    font-weight: 600;
+    color: rgb(12, 123, 157);
+}
+.btn
+{
+   background: linear-gradient(to top,black 60%,rgb(80, 80, 80)); 
+   font-size: 14px;
+   font-weight: bold;
+   color: white;
+   min-width: 80px;
+}
+.btn:hover
+{
+    background: linear-gradient(to top,black 60%,rgb(0, 0, 0)); 
+}
+
+            /* header ends here */
+
+            /* main */
+ 
+main .container
+{
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(68, 68, 68)
+}
+main .container h1
+{
+    font-size:clamp(20px,5vw,25px);
+    font-weight: 800;
+}
+
+#copyright
+{   width: 100vw;
+    color: rgb(167, 167, 167);
+    margin: 30px 0px;
+    text-align:center;
+    font-size: 11px
+}      
+
+
+/* index/style css */
+
+#landing_page_hero
+{
+    background-image: url(../images/main-content-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    padding: 4vw 0vw 0vw 4vw;
+}
+#landing_page_hero h1{
+    font-size: clamp(1.8rem,6vw,2.5rem);
+    font-weight: 600;
+    color: rgb(27, 92, 150)
+}
+
+main  .container #text ul li
+{   list-style: none;
+    font-size:clamp(1.2rem,6vw,2rem);
+    font-weight: 600;
+    color: rgb(70, 70, 70);
+    line-height: 3rem;
+    position: relative;
+}
+main .container ul li::before
+{
+    content: '';
+    position:absolute;
+    width: 10px;
+    height:9px;
+    background-color: blue;
+    background-image: url(../images/list-style.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top:20px;
+    left: -15px;
+}
+
+
+main .container-fluid
+{
+    background-image: url(../images/mustang.jpg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  
+}
+#main_btn
+{
+    font-size: 1.9rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+#learn_more a
+{   
+    color: rgb(70, 70, 70);
+    font-weight: 600;
+}
+
+/* car club css */
+
+
+.row1 a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 800;
+}
+fieldset
+{
+    margin-right: 10px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+fieldset label
+{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+table
+{
+    font-size:clamp(0.8rem,3vw,0.97rem) ;
+}
+thead
+{
+    background-color: #444;
+    color: white;
+}
+tbody tr
+{
+    background-color: #eee;
+}
+tbody a
+{   text-decoration: none;
+    color: rgb(39, 92, 146);
+}
+tbody a:hover{
+    text-decoration: underline;
+}
+tbody tr td:last-child a
+{
+    word-break: break-all;
+}
+.pagination .page-item a
+{
+    color: rgb(39, 92, 146);
+    padding:0px 7px ;
+    border: none;
+}
+
+/* contact css */
+
+
+main .container label
+{
+    font-weight:700;
+    font-size: 16px;
+    color: rgb(68, 68, 68)
+
+}
+main .container .formgroup
+{
+    margin-bottom: 1rem;
+   
+}
+main .container .formgroup input
+{
+    width: 35vw;
+    min-width: 300px;
+    height: 23px;
+}
+main .container .formgroup textarea
+{
+    width: 35vw;
+    min-width:300px ;
+}
+
+/* faq css */
+
+main .container ul li
+{
+    list-style: none;
+}
+main .container ul li a
+{
+    font-weight: 600;
+    color: rgb(39, 92, 146);
+    text-decoration: none;
+}
+main .container ul li a:hover
+{
+    text-decoration:underline;
+}
